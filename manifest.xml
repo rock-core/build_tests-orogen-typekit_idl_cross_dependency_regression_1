@@ -1,0 +1,7 @@
+<package>
+  <description brief="BUild test for a recursive typekit import regression related to IDL compilation">
+  </description>
+  <author>Sylvain Joyeux/sylvain.joyeux@tidewise.io</author>
+  <license>MIT</license>
+  <depend package="base/orogen/types" />
+</package>

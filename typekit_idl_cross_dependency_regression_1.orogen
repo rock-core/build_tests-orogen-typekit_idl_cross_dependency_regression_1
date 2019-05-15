@@ -1,0 +1,7 @@
+name 'typekit_idl_cross_dependency_regression_1'
+
+import_types_from 'base'
+import_types_from 'typekit_idl_cross_dependency_regression_1Types.hpp'
+
+typekit.export_types 'typekit_idl_cross_dependency_regression_1/BaseUsingStruct',
+                     'typekit_idl_cross_dependency_regression_1/StdUsingStruct'
